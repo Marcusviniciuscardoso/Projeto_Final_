@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+header {
+    background-color: black;
+    text-align: left;
+    color: aliceblue;
+}
+section{
+    background-color: #212121;
+}
+.icon {
+    position: relative;
+    top: 10px;
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+.header1 ul{
+    padding-left: 1030px;
+    padding-bottom: 10px;
+    display: flex;  
+}
+
+.header1 ul li{
+  text-align: center;
+  list-style-type: none;
+  padding-right: 14px;
+}
+.Button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(236, 29, 29);
+    color:#FFF;
+    margin:20px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;     
+}
+.Button:hover{
+    transition: all 300ms ease-in-out;
+    background-color: rgb(247, 62, 62);
+    cursor: pointer;
+} 
+input{
+    position: relative;
+    top: 25px;
+    left: 850px;
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    border-color:white;
+    border-style: groove;
+}
+input:focus {
+    color: aliceblue;
+}
+.Container1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+article h2{
+    color:aliceblue;
+    text-align: center;
+}
+article h3{
+    position: relative;
+    margin-top: 10px;
+    padding-left: 425px;
+    color:aliceblue;
+}
+.comment-text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.comment-text textarea{
+   width: 550px;
+   background-color: #181414;
+   color: aliceblue;
+   font-size: 20px;
+}
+.comment-box{
+    display:flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color:#181414;
+    width: 550px;
+}
+.text{
+    text-align: center;
+    border-bottom: solid;
+}
+.text h3{
+    color:aliceblue;
+    text-align: center;
+}
+.text2{
+    position: relative;
+    margin-top: 10px;
+    padding-left: 425px;
+    color:aliceblue;
+}
+p {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: left;
+}
+img {
+    width: 400px;
+    height: 380px;
+    object-fit: contain;
+    margin-right: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+.Container2 ul{
+      position:absolute;
+      left: 500px;
+      color:aliceblue;
+      display: flex;
+}
+.Container2 ul li{
+    list-style-type: none;
+    padding-right: 14px;
+}
